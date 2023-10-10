@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Martian+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(168, 165, 165);
+    width: 434px;
+    font-family: 'Lora', serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 13px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 24px;
+    padding: 18px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    width: 90vw;
+    font-family: 'Lora', serif;
+    font-family: 'Martian Mono', monospace;
+}
+
+.infocontainer {
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 65px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.buttons button {
+    margin-top: 34px;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devpic img {
+    width: 280px;
+    height: 58vh;
+}
